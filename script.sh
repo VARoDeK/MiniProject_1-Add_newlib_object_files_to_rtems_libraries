@@ -23,7 +23,8 @@ SOURCE_OBJFILE=()
         TARGET_LIBRARY+=( "lib/soft/leon/libc.a" )              #15
         TARGET_LIBRARY+=( "lib/soft/leon/at697f/libc.a" )       #16
         TARGET_LIBRARY+=( "lib/soft/leon/ut699/libc.a" )        #17
-#------------------------------------------------------------------------------------------------------------#------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------
 #define the lib_a-ndbm.o files to be added
         SOURCE_OBJFILE+=( "leon3/newlib/libc/search/lib_a-ndbm.o" )                 #0
         SOURCE_OBJFILE+=( "leon3/gr712rc/newlib/libc/search/lib_a-ndbm.o" )         #1
@@ -43,7 +44,8 @@ SOURCE_OBJFILE=()
         SOURCE_OBJFILE+=( "soft/leon/newlib/libc/search/lib_a-ndbm.o" )             #15
         SOURCE_OBJFILE+=( "soft/leon/at697f/newlib/libc/search/lib_a-ndbm.o" )      #16
         SOURCE_OBJFILE+=( "soft/leon/ut699/newlib/libc/search/lib_a-ndbm.o" )       #17
-#------------------------------------------------------------------------------------------------------------#------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------
 #NOTE : THE TARGET_LIBRARY[i] SHOULD CORRESPOND TO SOURCE_OBJFILE[i], FOR ANY CONSTANT VALUE OF i.
 
 PATH_TO_NEWLIB_SPARC="/home/varodek/development/newlib/b-sparc-rtems5-newlib/sparc-rtems5/"
